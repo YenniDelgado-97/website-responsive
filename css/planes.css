@@ -1,0 +1,193 @@
+.planes {
+    background-color: var(--background-ceniza-claro);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 42px;
+    padding-right: 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.planes__titulo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+/* identical to box height, or 100% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #4F4C4C;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.25rem;
+}
+
+.planes__tarjetas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tarjetas {
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--background-blanco);
+
+    width: 100%;
+    max-width: 300px;
+
+    margin-bottom: 2rem;
+
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 2px #00000010;
+}
+
+.tarjetas__titulo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+
+    padding: .75rem 0;
+
+    margin-bottom: .5rem;
+
+    border-bottom: 1px solid var(--background-azul-claro);
+}
+
+.inicio{
+    color: #035A76;
+}
+
+.ultra{
+    color: #690F8E;
+}
+
+.mega{
+    color: #B00024;
+}
+
+.tarjetas__contenido {
+    padding: 0 15%;
+}
+
+.tarjetas__precio {
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.tarjetas__texto {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    /* identical to box height, or 187% */
+    
+    
+    color: #666666;
+}
+
+.tarjetas__boton {
+    font-size: 1.2rem;
+    font-weight: 700;
+
+    width: 100%;
+
+    align-self: center;
+
+    padding: .75rem 2rem;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tarjetas--start {
+    width: 300px;
+    height: 306px;
+    margin-right: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgb(0 0 0 / 6%);
+    border-radius: 5px;
+}
+
+.tarjetas--ultra {
+    box-shadow: 0px 2px 10px rgb(0 0 0 / 6%);
+    border-radius: 5px;
+    margin-right: 20px;
+    width: 300px;
+    height: 334px;
+}
+
+.tarjetas--mega {
+    width: 300px;
+    height: 306px;
+    box-shadow: 0px 2px 10px rgb(0 0 0 / 6%);
+    border-radius: 5px;
+}
+
+.tarjetas__boton--start {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #035A76;
+}
+
+.tarjetas__boton--ultra {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        line-height: 33px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #690F8E;
+
+}
+
+.tarjetas__boton--mega {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+line-height: 33px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #B00024;
+    border-color: var(--planes-card-mega);
+}
+
+@media screen and (max-width: 768px){
+    .planes__tarjetas {
+        flex-direction: column;
+    }
+}
